@@ -1,0 +1,1468 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+:root{
+    --maincolor: rgb(243, 132, 4); 
+    --secondcolor:  rgb(38, 161, 38);;
+}
+.mainproject .header .part1 a{    
+    color:white ;
+   text-decoration:none;
+  margin-left:50px ;
+}
+.mainproject .header .part1  :hover{
+    text-decoration: underline;
+   
+}
+.mainproject .header .part1{
+   display:flex ;
+   width: 100%;
+   background-color:var(--secondcolor);
+   margin: auto;
+   padding: 15px;
+justify-content: space-between;
+}
+.mainproject .header .part2 span{
+color: var(--maincolor);
+}
+.mainproject .header .part2 .adress{
+margin-top:20px ;
+padding-left: 40px;
+font-family: "Mooli", sans-serif;
+position: relative;
+bottom: 14px;
+font-weight: bold;
+}
+.mainproject .header .part2{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.mainproject .header .part2 .po{
+    display: flex;
+    align-items: center;
+
+}
+.mainproject .header .part2 .div1{
+    margin: 10px;
+    text-align: center; 
+}
+.mainproject .header .part2 .line1{
+    width: 1px;
+    height: 50px;
+    background-color: grey;
+  
+}
+.mainproject .header .part2 .line2{
+    width: 1px;
+    height: 50px;
+    background-color: grey;
+   position: relative;
+   left: 150px;
+}
+
+.mainproject .header .part1 .icons i{
+color: white;
+}
+
+.mainproject .header .part1 .line3{
+    background-color:white ;
+    width: 1px;
+    height: 17px;
+    position: absolute;
+left: 220px;
+
+}
+.mainproject .header .part1 .line4{
+    background-color:white ;
+    width: 1px;
+    height: 17px;
+    position: absolute;
+left:130px;
+
+}
+.mainproject .header .navbar {
+    width: 100%;
+    background-color: black;
+    display: flex;
+}
+.mainproject .header .navbar li a{
+    text-decoration: none;
+    color:white;
+    margin: 20px;
+    margin-left: 15px;
+    font-family: "Mooli", sans-serif;
+    
+}
+.mainproject .header .navbar ul li:hover{
+    background-color: rgb(255, 115, 0);
+    transition: 1s;
+    padding: 18px 0px;
+}
+.mainproject .header .navbar ul .page .headbox{
+    width: 100px;
+    height: 90px;
+    background-color: white;
+    border-radius: 10px;
+    display: none;
+   position: absolute;
+   top: 170px;
+}
+.mainproject .header .navbar ul  .page:hover .headbox{
+display: block;
+}
+.mainproject .header .navbar ul .page .headbox p{
+    color: black;
+    font-size: 10PX;
+    padding: 10px;
+}
+.mainproject .header .navbar ul {  
+    display: flex;
+    list-style: none;
+    align-items: center;
+    
+}
+.mainproject .header .navbar .link1{
+    margin-left: 55px;
+    background-color: rgb(255, 115, 0);
+    padding:18px 0px ;
+
+
+}
+.mainproject .header .img{
+    background-image: url(../images/carousel-1.jpg);
+   width: 100%;
+   height: 600px;
+   background-size:cover; 
+   background-position: center;
+}
+.mainproject .header .navbar .button1{
+    padding: 6px 15px;
+    background-color:rgb(212, 47, 6);
+    border-radius: 7px;
+    border: none;
+    height: 30px;
+    right: 5px;
+    position: absolute;
+    right: 15px;
+}
+.mainproject .header .img h3{
+    color: aliceblue;
+  text-align: center;
+  position: relative;
+  top: 200px;
+  font-family: "Nunito", sans-serif;
+  font-size: 28px;
+}
+.mainproject .header .img h2{
+ position: relative; 
+ color: aliceblue;
+ top: 209px;
+ text-align: center;
+ font-size: 60px;
+
+ font-family: "Mooli", sans-serif;
+
+}
+.mainproject .header .img p{
+    color: aliceblue;
+    position: relative;
+    top: 237px;
+    text-align: center;
+    font-family: "Mooli", sans-serif;
+    font-size: 19px;
+}
+.mainproject .header .img .buttonleft{
+    padding: 11px 18px;
+    border-radius: 6px;
+    background-color: var(--maincolor);
+    border: none;
+    color: aliceblue;
+    font-family: "Mooli", sans-serif;
+    font-weight: bold;
+}
+.mainproject .header .img .bo{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 250px;
+    column-gap: 15px;
+}
+.mainproject .header .img .buttonright{
+    padding: 11px 18px;
+    border-radius: 6px;
+    background-color: rgba(30, 207, 39, 0.842);
+    border: none;
+   color: black;
+   font-family: "Mooli", sans-serif;
+   font-weight: bold;
+   font-weight: bold;
+}
+.mainproject .header .img .buttonright:hover{
+    color: white;
+}
+.mainproject  .contaner .part3 .form form input{
+   display: block;
+   width: 273px;
+   height: 30px;
+   margin: auto;
+   padding-left: 15px;
+   background-color: white;
+   margin-bottom: 27px;
+   border-radius: 6px;
+   border: none;
+
+}
+
+.mainproject  .contaner .part3 .form{
+    width: 315px;
+    height: 389px;
+    background-color:rgb(212, 47, 6);
+    text-align: center;
+    position: relative;
+    right: 40px;
+}
+.mainproject  .contaner .part3 .form button{
+border-radius: 6px;
+padding: 6px 104px;
+border: none;
+background-color: black;
+color: white;
+font-family: "Nunito", sans-serif;
+margin-top: 39px;
+}
+.mainproject  .contaner .part3 .form form{
+    position: relative;
+    top: 43px;
+}
+.mainproject  .contaner .part3{
+    background-color: rgb(207, 207, 207);
+    height: auto;
+    width: 100%;
+display: flex;
+justify-content: space-evenly;
+
+}
+.mainproject  .contaner .part3 .bigpart .mainicon{
+    display:flex;
+    
+}
+   
+.mainproject  .contaner .part3 .bigpart .mainicon .maindiv1 .div1 i{
+    color: green;
+    
+}
+.mainproject  .contaner .part3 .bigpart .mainicon .maindiv1 .div2 i{
+    color: green;
+    
+}
+.mainproject  .contaner .part3 .bigpart .mainicon .maindiv2 .div3 i{
+    color: green;
+    
+}
+.mainproject  .contaner .part3 .bigpart .mainicon .maindiv2 .div4 i{
+    color: green;
+    
+}
+.mainproject  .contaner .part3 .bigpart .text1 h3{
+    color: rgb(38, 161, 38);
+    font-size: 23px;
+  font-family: "Mooli", sans-serif; 
+padding: 10px 0px;
+}
+
+.mainproject  .contaner .part3 .bigpart .text1  h2{
+    font-size: 50px;
+    color: black;
+    font-family: "Nunito", sans-serif;
+    letter-spacing: -4px;
+    padding: 10px 0px;
+}
+.mainproject  .contaner .part3 .bigpart .text1 p{
+    padding: 10px 0px;
+}
+.mainproject  .contaner .part3 .bigpart span{
+    color: rgb(212, 47, 6);
+}
+
+
+.mainproject  .contaner .part3 .form form select{
+    width: 273px;
+height: 30px;
+border-radius: 6px;
+border: none;
+margin-bottom: 27px;
+padding-left: 15px;
+}
+
+.mainproject  .contaner .part4 .partleft {
+    margin-bottom: 100px;
+}
+.mainproject  .contaner .part4 .partleft h3{
+color: green;
+font-family: "Nunito", sans-serif;
+font-weight: bold;
+padding-bottom: 5px;
+}
+.mainproject  .contaner .part4 .partleft h2{
+    font-family: "Nunito", sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    letter-spacing: -4px;
+}
+
+.mainproject  .contaner .part4 .partleft h2 .special{
+    color: rgb(212, 47, 6);
+}
+.mainproject  .contaner .part4 .partleft h4{
+    font-weight: bold;
+    font-size: 21px;
+    letter-spacing: -1px;
+}
+.mainproject  .contaner .part4 .partleft p{
+    width: 430px;
+    color: rgba(0, 0, 0, 0.596);
+
+}
+.mainproject  .contaner .part4 .partleft h5{
+    font-weight: bold;
+    font-size: 19px;
+    font-family: "Nunito", sans-serif;
+    margin-left: 20px;
+    margin-top: 20px;
+    
+}
+.mainproject  .contaner .part4 .partleft{
+    margin-top: 20px;
+    width: 50%;
+   
+}.mainproject  .contaner .part4 .partleft button{
+width: 80px;
+height: 40px; 
+background-color:  rgb(212, 47, 6);
+border: none;
+border-radius: 7px;
+font-family: "Nunito", sans-serif;
+}
+.mainproject  .contaner .part4{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 70px;
+    width: 100%;
+    
+}
+.mainproject  .contaner .part4 .partleft h5 i{
+    color: green;
+}
+.mainproject  .contaner .part4 .partright .picture img{
+    width: 400px;
+}
+.mainproject  .contaner .part4 .partright .picture1 img{
+    width: 200px;
+}
+.mainproject  .contaner .part5 {
+    background-color: rgb(207, 207, 207);
+    height: auto;
+    width: 100%;
+    margin: auto;
+    
+}
+.mainproject  .contaner .part5 .maindiv{
+    width:100%;
+justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    margin-top: 50px;
+}
+.mainproject  .contaner .part5 .maindiv .div1{
+    width: 380px;
+    background-color: aliceblue;
+    margin: 10px;
+ text-align: center;
+box-shadow: 6px 6px 7px rgb(68, 149, 68);
+}
+.mainproject  .contaner .part5 .maindiv .div1 h3{
+padding: 0px 10px;
+font-family: "Nunito", sans-serif;
+padding-bottom: 15px;
+letter-spacing: -1px;
+font-weight: bold;
+}
+.mainproject  .contaner .part5 .maindiv .div1 h4{
+    font-family: "Mooli", sans-serif;
+   color: rgb(253, 101, 0);
+  padding-bottom: 30px;
+}
+.mainproject  .contaner .part5 .maindiv .div1 p{
+    padding-bottom: 15px;
+    color: rgba(37, 37, 37, 0.938);
+}
+.mainproject  .contaner .part5 .one h3{
+    font-family: "Mooli", sans-serif;
+    color: green;
+    text-align: center;
+padding: 10px 0px;
+}
+.mainproject  .contaner .part5 .one h2{
+    color: black;
+    font-family: "Nunito", sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    letter-spacing: -4px;
+    text-align: center;
+    
+}
+.mainproject  .contaner .part5 .one h2 span{
+    color: rgb(212, 47, 6);
+
+}
+.mainproject  .contaner .part5 i {
+    color: green;
+}
+.mainproject  .contaner .part5 .one{
+    position: relative;
+    top: 50px;
+}
+.mainproject  .contaner .part6{
+    display: flex;
+    justify-content: center;
+column-gap: 80px;
+width: 100%;
+}
+.mainproject  .contaner .part6 .left img{
+    width: 270px;
+    height: 290px;
+
+}
+.mainproject  .contaner .part6 .right{
+margin-top: 50px;
+}
+.mainproject  .contaner .part6 .right .mainright h3{
+  color: var(--secondcolor);
+  font-family: "Mooli", sans-serif;
+  font-weight: bold;
+  padding-bottom: 16px;
+}
+.mainproject  .contaner .part6 .right h2{
+color: black;
+font-family: "Nunito", sans-serif;
+font-size: 40px;
+word-spacing: -9px;
+padding-bottom: 17px;
+}
+.mainproject  .contaner .part6 .right .h3{
+color: green;
+}
+.mainproject  .contaner .part6 .right h2 span{
+    color: rgb(212, 47, 6);
+}
+.mainproject  .contaner .part6 .right p{
+width: 490px;
+color: rgba(37, 37, 37, 0.938);
+padding-bottom: 17px;
+}
+.mainproject  .contaner .part6 .right .div4 .div1{
+    color: black;
+    font-family: "Nunito", sans-serif;
+    word-spacing: -2px;
+    font-size: 14px;
+}
+.mainproject  .contaner .part6 .right .onetwo {
+    display: flex;
+    column-gap: 50px;
+    padding-bottom: 25px;
+}
+.mainproject  .contaner .part6 .right .threefour {
+    display: flex;
+  column-gap: 85px;
+  padding-bottom: 25px;
+}
+.mainproject  .contaner .part6 .right .onetwo .one{
+    color: black;
+    font-family: "Mooli", sans-serif;
+    word-spacing: -2px;
+    }
+.mainproject  .contaner .part6 .right .onetwo .two{
+    color: black;
+    font-family: "Mooli", sans-serif;
+    word-spacing: -2px;
+    }
+.mainproject  .contaner .part6 .right .onetwo .two i{
+    color: green;
+    }
+    .mainproject  .contaner .part6 .right .threefour .one{
+    color: black;
+    font-family: "Mooli", sans-serif;
+    word-spacing: -2px;
+    }
+    .mainproject  .contaner .part6 .right .threefour .two{
+    color: black;
+    font-family: "Mooli", sans-serif;
+    word-spacing: -2px;
+    }
+    .mainproject  .contaner .part6 .right .threefour .two i{
+     color: green;
+    }
+    .mainproject  .contaner .part6 .right .onetwo .one i{
+        color: green;
+    }
+     
+    .mainproject  .contaner .part6 .right .threefour .one i{
+        color: green;
+    }
+    .mainproject  .contaner .part7 {
+      background-color:  rgb(207, 207, 207);
+      width: 100%;
+      height: auto;
+    }
+    .mainproject  .contaner .part7 .title{
+        text-align: center;
+        padding-top: 80px;
+        padding-bottom: 20px;
+    }
+
+    .mainproject  .contaner .part7 .title h3 {
+     color: green;
+     font-family: "Mooli", sans-serif;
+     word-spacing: -3px;
+    }
+    .mainproject  .contaner .part7 .title h2{
+    color: black;
+    font-family: "Nunito", sans-serif;
+        font-size: 40px;
+        word-spacing: -3px; 
+    }
+    .mainproject  .contaner .part7 .title h2 span{
+        color: rgb(212, 47, 6);
+        
+    }
+    .mainproject  .contaner .part7 .parent .card{
+        width: 250px;
+        background-color: aliceblue;  
+    } 
+    .mainproject  .contaner .part7 .parent .card .text2 button{
+        width: 250px;
+        height: 25px;
+        border: none;
+        background-color: rgb(212, 47, 6);
+        color: white;
+    }
+    .mainproject  .contaner .part7 .parent .card .texttwo button{
+        width: 250px;
+        height: 25px;
+        border: none;
+        background-color: green;
+        color: black;
+    }
+    .mainproject  .contaner .part7 .parent .card .img{
+     background: linear-gradient( rgba(0, 0, 0, 0.534), rgba(0, 0, 0, 0.534)), url(../images/price-1.jpg);
+     width: 250px;
+     height: 150px;
+     background-size: 100% 100%;
+    } 
+    .mainproject  .contaner .part7 .parent .card .img2{
+     background: linear-gradient( rgba(0, 0, 0, 0.534), rgba(0, 0, 0, 0.534)), url(../images/price-2.jpg);
+     width: 250px;
+     height: 150px;
+     background-size: 100% 100%;
+    } 
+    .mainproject  .contaner .part7 .parent .card .img3{
+     background: linear-gradient( rgba(0, 0, 0, 0.534), rgba(0, 0, 0, 0.534)), url(../images/price-3.jpg);
+     width: 250px;
+     height: 150px;
+     background-size: 100% 100%;
+    } 
+
+    .mainproject  .contaner .part7 .parent .card .text{
+        text-align: center;
+    }
+    .mainproject  .contaner .part7 .parent .card .text p{
+        padding: 7px 0;
+    }
+    .mainproject  .contaner .part7 .parent .card .text .special{
+        margin-top: 15px;
+    }
+    .mainproject  .contaner .part7 .parent .card .text i{
+        color: green;
+    }
+    .mainproject .contaner .part7 .parent .card .text2{
+        text-align: center;
+    }
+    .mainproject .contaner .part7 .parent .card .texttwo{
+        text-align: center;
+    }
+    .mainproject .contaner .part7 .parent .card .text2 i{
+        text-align: center;
+        color: red;
+    }
+    .mainproject  .contaner .part7 .parent .card .text2 p{
+        padding: 7px 0;
+    }
+    .mainproject  .contaner .part7 .parent .card .text2 .color-button{
+        background-color: green;
+    }
+
+    .mainproject  .contaner .part7 .parent{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-items: center;
+    gap: 30px;
+    }
+    .mainproject  .contaner .part7 .parent .card p{
+        font-family: "Nunito", sans-serif;
+    }
+    .mainproject .contaner .part8 .title h3{
+        color: green;
+        font-family: "Mooli", sans-serif;
+        word-spacing: -3px;
+    }
+    .mainproject .contaner .part8 .title {
+        margin-top: 50px;
+        text-align: center;
+    }
+  
+    .mainproject .contaner .part8 .title h2{
+        color: black;
+    font-family: "Nunito", sans-serif;
+        font-size: 40px;
+        word-spacing: -3px; 
+    }
+    .mainproject .contaner .part8 .title h2 span{
+        color: rgb(212, 47, 6);
+    }
+    .mainproject .contaner .part8 .parent .card{
+        width: 250px;
+        height: 310px;
+        background-color:  rgb(207, 207, 207);
+        text-align: center;
+        border-radius: 10px;
+    }
+    .mainproject .contaner .part8 .parent .card img{
+        width: 100%;
+        height: 250px;
+        border-radius: 10px 10px 0 0;
+    }
+    .mainproject .contaner .part7 .parent .card .img {
+       display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .mainproject .contaner .part7 .parent .card .img2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .mainproject .contaner .part7 .parent .card .img3 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .mainproject .contaner .part7 .parent .card .img h2{
+        color: rgb(212, 47, 6);
+        font-family: "Nunito", sans-serif;
+    }
+    .mainproject .contaner .part7 .parent .card .img2 h2{
+      color: green;
+      font-family: "Nunito", sans-serif;
+    }
+    .mainproject .contaner .part7 .parent .card .img3 h2{
+        color: rgb(212, 47, 6);
+        font-family: "Nunito", sans-serif;
+    }
+    .mainproject .contaner .part7 .parent .card .img p{
+        color: white;
+        font-size: 30px;
+        font-weight: bold;
+    }
+    .mainproject .contaner .part7 .parent .card .img2 p{
+        color: white;
+        font-size: 30px;
+        font-weight: bold;
+    }
+    .mainproject .contaner .part7 .parent .card .img3 p{
+        color: white;
+        font-size: 30px;
+        font-weight: bold;
+    }
+    .mainproject .contaner .part8 .parent .card h2{
+        margin-bottom: 5px;
+        font-family: "Nunito", sans-serif;
+        word-spacing: -4px;
+    }
+    .mainproject .contaner .part8 .parent .card p{
+        font-family: "Nunito", sans-serif;
+    }
+    .mainproject .contaner .part8 .parent .card .rotate  i{
+     color: orangered ;
+     margin-top: 9%;
+     border:0.5px solid orangered;
+     border-radius: 50%;
+    }
+    .mainproject .contaner .part8 .parent .card .rotate{
+        width:250px ;
+        height: 70px;
+        background-color: black;
+        transform: rotatex(90deg);
+        border-radius: 0px 0px 10px 10px;
+        transition: 1s;
+    }
+    .mainproject .contaner .part8 .parent .card:hover .rotate{
+        transform: rotatex(0deg);
+        transform: translateY(-63px);
+    }
+    .mainproject .contaner .part8 .parent{
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 50px;
+    }
+    .mainproject .contaner .part9 {
+        background-color:  rgb(207, 207, 207);
+        width: 100%;
+        height: 600px;
+        margin-top: 90px;
+
+    }
+    .mainproject .contaner .part9 .title {
+        text-align: center;
+    }
+    .mainproject .contaner .part9 .title h3 {
+        color: green;
+        font-family: "Mooli", sans-serif;
+        word-spacing: -3px;
+    }
+   
+    .mainproject .contaner .part9 .title h2{
+        color: black;
+    font-family: "Nunito", sans-serif;
+        font-size: 40px;
+        word-spacing: -3px; 
+        padding-top: 10px;
+    }
+   
+    .mainproject .contaner .part9 h2 span{
+        color: rgb(212, 47, 6);
+    }
+   
+    .mainproject .contaner .part9 .title{
+       padding-top: 75px;
+    }
+    .mainproject .contaner .part9 .parent {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        margin-top: 80px;
+    }
+    .mainproject .contaner .part9 .parent .card1{
+     width: 325px;
+     height: 200px;
+     background-color: white;
+     box-shadow: 5px 5px 15px green;
+    }
+    .mainproject .contaner .part9 .parent .card1 p{
+        margin-top: 30px;
+        margin-left: 5px;
+    }
+    .mainproject .contaner .part9 .parent .card1 .part1{
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+    .mainproject .contaner .part9 .parent .card1 .part2{
+        text-align: center;
+    }
+    .mainproject .contaner .part9 .square .square1{
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        background-color: green;
+        
+    }
+    .mainproject .contaner .part9 .square {
+     display: flex;
+     justify-content: center;
+     column-gap: 19px;
+     margin-top:20px;
+     
+     
+    }
+    .mainproject .contaner .part10 .title h3{
+        color: green;
+        font-family: "Mooli", sans-serif;
+        word-spacing: -3px;
+        text-align: center;
+    }
+    .mainproject .contaner .part10 .title h2{
+        color: black;
+        font-family: "Nunito", sans-serif;
+        font-size: 40px;
+        word-spacing: -3px; 
+        padding-top: 10px;
+        text-align: center;
+    }
+    .mainproject .contaner .part10 .title h2 span{
+        color: rgb(212, 47, 6);
+    }
+    .mainproject .contaner .part10 .parent .card2 img{
+        width: 100%;
+        border-radius:10px 10px 0px 0px;
+    }
+    .mainproject .contaner .part10 .parent .card2 {
+        width: 300px;
+        background-color:  rgb(207, 207, 207);
+        margin: 0px 18px;
+        box-shadow:4px 2px 20px green ;
+    }
+    .mainproject .contaner .part10 .parent .card2 .text h3{
+        font-family: "Mooli", sans-serif;
+        color: black;
+        text-align: center;
+        word-spacing: 6px;
+    }
+    .mainproject .contaner .part10 .parent .card2 .text .text2 p{
+    color: rgba(128, 128, 128, 0.924);
+    
+    }
+    .mainproject .contaner .part10 .parent .card2 .text .text2{
+        display: flex;
+        justify-content: center;
+        column-gap: 15px;
+    }
+    .mainproject .contaner .part10 .parent .card2 .text p{
+        color: rgba(128, 128, 128, 0.924);
+        text-align: center;
+    }
+    .mainproject .contaner .part10 .parent .card2 .text h4{
+        text-align: center;
+        color:  rgb(212, 47, 6); 
+    }
+    .mainproject .contaner .part10 .parent {
+        display: flex;
+        justify-content: center;
+    }
+    .mainproject .footer{
+        width: 100%;
+        margin: auto;
+        background-color: rgb(24, 24, 24);
+        margin-top: 32px;
+        display: flex;
+       justify-content: center;
+       
+    }
+    .mainproject .footer .div1{
+        width: 25%;
+        display: flex;
+       flex-direction: column;
+       align-items: flex-start;
+       
+    }
+    .mainproject .footer .div1 h3 .lover{
+     font-family: "Mooli", sans-serif;
+     color: white;
+    }
+    .mainproject .footer .div1 h3 span{
+     font-family: "Mooli", sans-serif;
+     color:  rgb(212, 47, 6); 
+    }
+    .mainproject .footer .div1 p{
+     font-family: "Nunito", sans-serif;
+     color:  white ;
+     font-size: -20px;
+    }
+    .mainproject .footer .div2{
+        width: 18%;
+        display: flex;
+        text-align: start;
+       flex-direction: column;
+       
+    }
+    .mainproject .footer .div2 h4{
+        color:  rgb(212, 47, 6);
+    }
+    .mainproject .footer .div2 p{
+      color: white;
+      padding: 7px 0px;
+    }
+    .mainproject .footer .div2 .icon {
+        color: white;
+        display: flex;
+    }
+    .mainproject .footer .div2 .icon i{
+        border: 2px solid white;
+        border-radius: 50%;
+    }
+    .mainproject .footer .div3{
+        width: 18%;
+        display: flex;
+        text-align: start;
+       flex-direction: column;
+     
+    }
+    .mainproject .footer .div3 h4{
+        color:  rgb(212, 47, 6);
+    }
+    .mainproject .footer .div3 p{
+        color: white;
+        padding: 3px 0px;
+    }
+    .mainproject .footer .div4{
+        width: 18%;
+        display: flex;
+        text-align: start;
+       flex-direction: column;
+       
+    }
+    .mainproject .footer .div4 h4{
+        color:  rgb(212, 47, 6);
+    }
+    .mainproject .footer .div4 input{
+      width: 220px;
+      height: 25px;
+      border-radius:5px;
+      border: none;
+      margin: 8px 0px;
+    }
+    .mainproject .footer .div4 button{
+        width: 220px;
+        height: 25px;
+        border-radius: 5px;
+       border: none;
+       background-color:  rgb(212, 47, 6);
+       margin: 8px 0px;
+       color: white;
+    }
+    .mainproject .end{
+        width: 100%;
+      background-color: black;
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .mainproject .end p{
+      color: white;
+      margin-left: 30px;
+      padding: 20px 0px;
+    }
+    .mainproject .end .a a{
+      text-decoration: none;
+      color: white;
+      
+    }
+    .header .navbar  input{
+        display: none;
+    }
+    @media screen and (max-width: 1200px){
+    .mainproject .header .img{
+        text-align: center;
+    }
+}
+   
+   @media screen and (max-width: 1100px){
+    .mainproject  .contaner .part5 .maindiv .div1{
+        width: 300px;
+      
+    }
+    .mainproject  .contaner .part5 .maindiv {
+     display: flex;
+      justify-content: center;
+    }
+}
+ 
+@media screen and (max-width: 959px){
+    .mainproject  .contaner .part5 .maindiv .div1{
+        width: 280px;
+    }
+    .mainproject .contaner .part10 .parent .card2 {
+        width: 250px;
+      
+    }
+}
+@media screen and (max-width: 1040px){
+    .mainproject .contaner .part8 .parent .card{
+        width: 220px;
+    }
+    .mainproject .contaner .part8 .parent .card .rotate{
+        width:220px;
+    }
+}
+
+@media screen and (max-width: 900px){
+    .mainproject .contaner .part8 .parent .card{
+        width: 200px;
+    }
+    .mainproject .contaner .part9 .square{
+        padding-bottom: 30px;
+    }
+    .mainproject .contaner .part8 .parent .card .rotate{
+        width:200px;
+    }
+    .mainproject .contaner .part9 .parent{
+       display:flex;
+       flex-wrap: wrap;
+    }
+    .mainproject .contaner .part9 .parent .card1{
+       margin: 16px 0px;
+       
+    }
+    .mainproject .contaner .part9 {
+       height: auto;
+    }
+    .mainproject  .contaner .part5 .maindiv .div1{
+        width: 250px;  
+    }
+    .mainproject .header .navbar .button1{
+       position: relative;
+       right: 6px;
+    }
+    .mainproject  .contaner .part3 .form{
+        width: 290px;
+        height: 389px;
+        position: relative;
+        left: 1px;
+    }
+}
+@media screen and (max-width: 860px){
+    .mainproject  .contaner .part3 .bigpart{
+       font-size: 13px;
+    }
+    .mainproject  .contaner .part4 .partleft h2{
+        font-size: 30px;
+    }
+    .mainproject  .contaner .part4 .partleft h4{
+        font-size: 14px;
+    }
+    .mainproject  .contaner .part4 .partleft p{
+        font-size: 12px;
+        width:280px ;
+    }
+    .mainproject  .contaner .part6 .right p{
+        font-size: 13px;
+        width: 350px;
+    }
+    .mainproject  .contaner .part6 .right .threefour .two{
+       position: relative;
+       right: 22px;
+    }
+    .mainproject  .contaner .part6 .right .onetwo .two{
+       position: relative;
+       right: 19px;
+    }
+
+}
+@media screen and (max-width: 810px){
+    .mainproject  .contaner .part5 .maindiv .div1{
+        width: 230px;  
+        height: 190px;
+    }
+    .mainproject  .contaner .part6 .right{
+        position: relative;
+        right: 13px;
+        font-size: 15px;
+    }
+    .mainproject  .contaner .part6 .left img{
+        width: 250px;
+        position: relative;
+        left: 10px;
+    }
+    .mainproject  .contaner .part7 .parent .card{
+        margin: 0px -10px;
+    }
+    .mainproject .contaner .part8 .parent .card{
+        width: 180px;
+    }
+    .mainproject .contaner .part8 .parent .card .rotate{
+        width:180px;
+    }
+    .mainproject .contaner .part10 .parent .card2 {
+        width: 220px;
+        height: 330px;
+    } 
+}
+@media screen and (max-width: 807px){
+    .mainproject  .contaner .part4 .partright .picture1{
+        display: flex;
+    }
+}
+@media screen and (max-width: 800px){
+    .mainproject .header .navbar ul {  
+        width: 70%;
+        flex-direction: column;
+        background-color: rgba(0, 0, 0, 0.63);
+        border: 2px solid orangered;
+        border-radius:30px 0px 50px ;
+        box-shadow:2px 2px 8px orangered ;
+     transition: 1s;
+     transform: rotateX(90deg);
+     transform-origin:top ;
+     position: absolute;
+     margin-top: 30px;
+     right:5% ;
+    }
+    .header .navbar .bar #bar{
+        color: orangered;
+        position: absolute;
+        top: 130px;
+        right: 20px;      
+    }
+    .mainproject .header .navbar ul .page .headbox{
+        position: absolute;
+        left: 70px;
+    }
+    .header .navbar .bar{
+        width:100%;
+        display: flex;
+    }
+    .header .navbar .bar h3{
+        color: white;
+        position: absolute; 
+        left: 10px; 
+        padding: 15px 0px; 
+        font-family: "Nunito", sans-serif;
+        font-size: 25px;
+
+    }
+    .header .navbar .bar span{
+        color: orangered;
+        
+    }
+    .header .navbar .bar{  
+        width: 100%;
+        height: 50px;
+        background-color: black;   
+    }
+    .mainproject .header .navbar ul .link1{
+        background-color:rgba(0, 0, 0, 0);
+        margin: auto;
+    }
+    .header .navbar input:checked ~ ul{
+        transform: rotateX(0deg);
+    }
+   
+}
+@media screen and (max-width: 771px){
+    .mainproject  .contaner .part7 .parent .card{
+        width: 215px;
+    }
+    .mainproject  .contaner .part7 .parent .card .img{
+        width: 215px;
+    }
+    .mainproject  .contaner .part7 .parent .card .img2{
+        width: 215px;
+    }
+    .mainproject  .contaner .part7 .parent .card .img3{
+        width: 215px;
+    }
+    .mainproject  .contaner .part7 .parent .card .text2 button{
+       width: 215px;
+    }
+    .mainproject  .contaner .part3 .bigpart{
+        font-size: 12px;
+       position: relative;
+       left: 13px;
+    }
+    .mainproject  .contaner .part3 .bigpart .text1 p{
+        width: 360px;
+    }
+ 
+    .mainproject  .contaner .part3 .bigpart .mainicon .maindiv2{
+        position: relative;
+        right: 30px;
+    }
+    .mainproject .footer .div4{
+        margin-right:25px ;
+    }
+    .mainproject .contaner .part4 .partright .picture img{
+        width: 300px;
+    }
+    .mainproject .contaner .part4 .partright .picture1 img{
+        width: 150px;
+    }
+    .mainproject .contaner .part5 .maindiv .div1{
+     width: 200px;
+    }
+    .mainproject .contaner .part8 .parent{
+    display: flex;
+    flex-wrap: wrap;
+    }
+    .mainproject .contaner .part7 .parent{
+    display: flex;
+    flex-wrap: wrap;
+    }
+    .mainproject .contaner .part5 .maindiv{
+    display: flex;
+    flex-wrap: wrap;
+    }
+    .mainproject .contaner .part10 .parent{
+      display: flex;
+      flex-wrap: wrap;
+    }
+}
+@media screen and (max-width: 765px){
+    .mainproject .contaner .part3 .bigpart .mainicon{
+        display: flex;
+        flex-direction: column;
+    }
+    .mainproject .contaner .part3 .bigpart .mainicon .maindiv2{
+       position: relative;
+       left: 4px;
+    }
+    .mainproject  .contaner .part3 .bigpart .text1 p{
+        width: 290px;
+    }
+    
+}
+@media screen and (max-width: 765px){
+    .mainproject .footer .div4 input{
+        width: 150px;
+    }
+    .mainproject .footer .div4 button{
+        width: 150px;
+    }
+    .mainproject .contaner .part8 .parent .card{
+         width: 250px;
+         margin: 11px 0px;
+        }
+        .mainproject .contaner .part8 .parent .card .rotate{
+            width:250px;
+        }
+}
+@media screen and (max-width: 730px){
+    .mainproject  .contaner .part3 .bigpart .text1 h2{
+        width: 299px;
+    }
+}
+@media screen and (max-width: 700px){
+    .mainproject  .contaner .part9 .parent .card1{
+        width: 240px;
+    } 
+    .mainproject .end{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .mainproject .contaner .part4 .partright .picture img{
+        width: 240px;
+    }
+    .mainproject .contaner .part4 .partright .picture1 img{
+        width: 120px;
+    }
+    .mainproject .contaner .part6 .left img{
+        width: 200px;
+        height: 250px;
+    }
+   
+}
+@media screen and (max-width: 690px){
+    .mainproject .contaner .part7 .parent .card{
+       width: 250px;
+    } 
+    .mainproject .contaner .part7 .parent .card .img{
+       width: 250px;
+    } 
+    .mainproject .contaner .part7 .parent .card .img2{
+       width: 250px;
+    } 
+    .mainproject .contaner .part7 .parent .card .img3{
+       width: 250px;
+    } 
+    .mainproject .contaner .part7 .parent .card .text2 button{
+       width: 250px;
+    } 
+}
+@media screen and (max-width: 670px){
+    .mainproject  .contaner .part3 .bigpart .text1 h2{
+        width: 200px;
+    }
+    .mainproject  .contaner .part3 .bigpart .text1 p{
+        width: 210px;
+    }
+    .mainproject .contaner .part6 .left img{
+        width: 150px;
+        height: 230px;
+       
+    }
+   .mainproject .footer{
+     column-gap: 16px;
+   }  
+}
+@media screen and (max-width: 610px){
+    .mainproject .header .part2{
+        display: flex;
+        flex-direction: column;   
+    }
+    .mainproject .header .part2 .adress{
+         text-align: center;
+    }
+    .mainproject .header .part2 .po{
+        display: flex;
+        justify-content: center;
+    }
+    .header .navbar .bar #bar{
+        position: absolute;
+        top: 180px;
+        color: orangered;
+    }
+    .mainproject .header .navbar ul .page .headbox{
+        position: absolute;
+        left: 40px;
+    }
+}
+@media screen and (max-width: 580px){
+    .mainproject  .contaner .part3 .bigpart .text1 h3{
+        width: 100px;
+    }
+    .mainproject .footer .div4 input{
+        width: 100px;
+    }
+    .mainproject .footer .div4 button{
+        width: 100px;
+    }
+}
+@media screen and (max-width: 550px){
+    .mainproject .contaner .part3{
+        display: flex;
+       flex-wrap: wrap;   
+    } 
+    .mainproject  .contaner .part3 .bigpart .text1 h3{
+        width: 260px;
+    }
+    .mainproject .contaner .part3 .form{
+        width: 320px;
+     }
+     .mainproject .contaner .part6 .left img{
+        width: 130px;
+        height: 200px;
+        
+    }
+    .mainproject  .contaner .part3 .bigpart .text1 h2{
+        width: 270px;
+    }
+    .mainproject .contaner .part4{
+        display: flex;
+        flex-wrap: wrap;
+    }
+  
+    .mainproject .contaner .part6{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .mainproject .contaner .part6 .left img{
+        width: 280px;
+        height: 280px;
+    } 
+}
+@media screen and (max-width: 500px){
+    .mainproject .contaner .part10 .parent .card2{
+       margin-bottom: 26px;
+    }
+    
+}
+@media screen and (max-width: 420px){
+    .mainproject .contaner .part6 .right p{
+     width: 230px;
+     text-align: center;    
+    }
+
+    .mainproject .contaner .part6 .right h3{
+      text-align: center;
+    }
+    .mainproject .contaner .part6 .right h2{
+     
+     width: 250px;
+     text-align: center;
+    }
+    .mainproject .contaner .part6 .right .onetwo{
+        display: flex;
+        flex-direction: column;
+    }
+    .mainproject .contaner .part6 .right .threefour{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .mainproject .footer .div4 input{
+        width: 80px;
+    }
+    .mainproject .footer .div4 button{
+        width: 80px;
+    }
+}
+@media screen and (max-width: 422px){
+    .header .navbar .bar #bar{
+        position: absolute;
+        top: 200px;
+        
+    }
+    .mainproject .header .part1 .icons{
+       display: flex;
+     }
+     .mainproject .header .part1 .link{
+       position: relative;
+       right: 13px;
+     }
+     .mainproject .header .part1 .line3{
+        margin-left: -13px;
+    
+    }
+    .mainproject .header .part1 .line4{
+        margin-left: -15px;
+    }
+    .header .navbar .bar #bar{
+        color: orangered;
+        position: absolute;
+        top: 180px;
+        right: 20px;      
+    }
+}
+@media screen and (max-width: 404px){
+    .mainproject .header .navbar .bar #bar{
+        position: absolute;
+        top: 220px;
+        
+    }
+  .mainproject .header .img h2{
+      font-size: 50px;
+  }
+  .mainproject .contaner .part4 .partleft p{
+   width: 160px;
+  
+  }
+}
+@media screen and (max-width: 406px){
+    .mainproject .header .part1 .link{
+        display: flex;
+    }
+}
+@media screen and (max-width: 404px){
+    .header .navbar .bar #bar{
+        color: orangered;
+       margin-top:-12px;  
+    }
+}
+@media screen and (max-width: 381px){
+    .header .navbar .bar #bar{
+    color: orangered;
+   margin-top: 20px;  
+    }
+}
+@media screen and (max-width: 393px){
+    .mainproject .header .navbar ul{
+        position: absolute;
+        top: 230px;
+    }
+    .mainproject .header .img p{
+        width: 140px;
+        margin: auto;
+    }
+}
